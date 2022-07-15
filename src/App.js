@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+/*
+ * @Description: 
+ * @Author: xulinbin
+ * @LastEditors: xulinbin
+ */
 import './App.css';
+// import TestHoc from './components/TestHoc';
+// import TestLocalForage from './components/TestLocalForage'
+import Father from './components/UseChildMeth/Father';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <TestLocalForage/> */}
+      {/* <TestHoc/> */}
+      <Father/>
     </div>
   );
 }
